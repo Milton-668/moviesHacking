@@ -21,7 +21,7 @@ public class MoviesProcess {
 
     //Pesquisa por todos os filmes
     public void findAll() throws IOException {
-        Files.lines(Paths.get(PATH_FILE3))
+        Files.lines(Paths.get(PATH_FILE))
                 .skip(1)
                 .map(line -> line.split(";"))
                 .map(col -> new Movie(Integer.parseInt(col[0]), col[1], col[2]))
@@ -30,7 +30,7 @@ public class MoviesProcess {
 
     public void findByIdInputOrElse() throws IOException {
         Integer id = reading.obterEntradaAsInt();
-        Files.lines(Paths.get(PATH_FILE3))
+        Files.lines(Paths.get(PATH_FILE))
                 .skip(1)
                 .map(line -> line.split(";"))
                 .map(col -> new Movie(Integer.parseInt(col[0]), col[1], col[2]))
@@ -40,7 +40,7 @@ public class MoviesProcess {
 
     private void findByNameIgnoreContaining() throws IOException {
         String nome = reading.obterEntrada();
-        Files.lines(Paths.get(PATH_FILE3), StandardCharsets.UTF_8)
+        Files.lines(Paths.get(PATH_FILE), StandardCharsets.UTF_8)
                 .skip(1)
                 .map(line -> line.split(";"))
                 .map(col -> new Movie(Integer.parseInt(col[0]), col[1], col[2]))
