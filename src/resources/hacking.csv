@@ -1,14 +1,16 @@
 id;nome;ano;classifica
-24;O Resgate do Soldado Ryan;1998;14
+1;Um sonho de liberdade;1994;16
+2;O podereso chefão;1972;14
+4;O Poderoso Chefão II;1974;14
+5;12 Homens e uma Sentença;1957;Livre
 6;A Lista de Schindler;1993;14
 7;O Senhor dos Anéis: O Retorno do Rei;2003;14
-2;O podereso chefão;1972;14
-1;Um sonho de liberdade;1994;16
+24;O Resgate do Soldado Ryan;1998;14
 8;Pulp Fiction - Tempo de Violência;2001;18
+9;O Senhor dos Anéis: A Sociedade do Anel;2001;12
 11;Forrest Gump: O Contador de Histórias;1994;14
 12;Clube da Luta;1999;18
 13;O Senhor dos Anéis: As Duas Torres;2002;12
-9;O Senhor dos Anéis: A Sociedade do Anel;2001;12
 14;Homem-Aranha: Através do Aranhaverso;2023;10
 15;A Origem;2010;14
 19;Um Estranho no Ninho;1975;16
@@ -20,10 +22,8 @@ id;nome;ano;classifica
 27;A Vida é Bela;1997;Livre
 28;À Espera de um Milagre;1999;18
 30;O Exterminador do Futuro 2: O Julgamento Final;1991;14
-4;O Poderoso Chefão II;1974;14
 31;De Volta para o Futuro;1985;Livre
 32;A Viagem de Chihiro;2001;Livre
-5;12 Homens e uma Sentença;1957;Livre
 33;O Pianista:2002;14;
 34;Psicose;1960;14
 35;Parasita;2019;16
@@ -89,23 +89,19 @@ id;nome;ano;classifica
 16;Star Wars: Episódio V - O Império Contra-Ataca;1980;Livre
 16;Star Wars: Episódio V - O Império Contra-Ataca;1980;Livre
 16;Star Wars: Episódio V - O Império Contra-Ataca;1980;Livre
-97;Viver;1952;Not Rated
 72;Oldboy;2003;16
 73;Viva: A Vida é uma Festa;2017;Livre
 74;Amadeus;1984;Livre
 76;Coração Valente;1995;16
-76;Coração Valente;1995;16
-76;Coração Valente;1995;16
 80;Princesa Mononoke;1997;12
 81;Gênio Indomável;1997;14
 84;3 Idiotas;2009;12
-93;2001: Uma Odisséia no Espaço;1968;Livre
-93;2001: Uma Odisséia no Espaço;1968;Livre
-93;2001: Uma Odisséia no Espaço;1968;Livre
 85;Cantando na Chuva;1952;Livre
 87;Réquiem para um Sonho;2000;18
 90;Star Wars, Episódio VI: O Retorno do Jedi;1983;Livre
 91;Vá e Veja;1985;18
-96;Lawrence da Arábia;1962;14
 94;A Caça;2012;14
+93;2001: Uma Odisséia no Espaço;1968;Livre
 95;Cães de Aluguel;1992;18
+96;Lawrence da Arábia;1962;14
+97;Viver;1952;Not Rated

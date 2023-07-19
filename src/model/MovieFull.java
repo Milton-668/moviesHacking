@@ -1,14 +1,12 @@
 package model;
 
-public record Movie(Integer id, String nome, String ano) {
-
-
+public record MovieFull (Integer id, String nome, Integer ano){
     @Override
     public String toString() {
-        return "Movie{" +
+        return "MovieFull{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
-                ", ano='" + ano + '\'' +
+                ", ano=" + ano +
                 '}';
     }
 }

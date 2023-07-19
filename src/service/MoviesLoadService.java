@@ -11,11 +11,12 @@ import java.util.List;
 public class MoviesLoadService {
 
     public static String PATH_FILE = "src/resources/hacking.csv";
+    public static String PATH_FILE3 = "src/resources/hacking3.csv";
 
     public List<Movie> moviesLoadCVS() {
         List<Movie> movies = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(PATH_FILE))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(PATH_FILE3))) {
 
             br.readLine(); // Remover o cabeçalho
 
@@ -25,7 +26,6 @@ public class MoviesLoadService {
                 int id = Integer.parseInt(dados[0].trim());
                 String nome = dados[1].trim();
                 String ano = dados[2].trim();
-                //String classifica = dados[3].trim();
 
                 Movie movie = new Movie(id, nome, ano);
                 movies.add(movie);
